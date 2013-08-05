@@ -133,7 +133,8 @@ static void simpleMenuItemSelectedCallback(int index, void *context)
 	}
 	
 	DictionaryIterator *body;
-	HTTPResult result = http_out_get("http://pebbleohai.herokuapp.com/checkin", CHECKIN_COOKIE, &body);
+	#error Type your own URL
+	HTTPResult result = http_out_get("[YOUR URL]/checkin", CHECKIN_COOKIE, &body);
 	if(result != HTTP_OK) {
 		
 		logMessage("http error");
@@ -190,7 +191,8 @@ static void getList(){
 	}
 	
 	DictionaryIterator *body;
-	HTTPResult result = http_out_get("http://pebbleohai.herokuapp.com//list", GET_LIST_COOKIE, &body);
+	#error Type your own URL
+	HTTPResult result = http_out_get("[YOUR URL]/list", GET_LIST_COOKIE, &body);
 	if(result != HTTP_OK) {
 		
 		logMessage("http error");
@@ -210,7 +212,8 @@ static void getList(){
 static void getMore(){
 	
 	DictionaryIterator *body;
-	HTTPResult result = http_out_get("http://pebbleohai.herokuapp.com/more", GET_LIST_COOKIE, &body);
+	#error Type your own URL
+	HTTPResult result = http_out_get("[YOUR URL]/more", GET_LIST_COOKIE, &body);
 	if(result != HTTP_OK) {
 		
 		logMessage("http error");
