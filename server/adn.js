@@ -62,4 +62,3 @@ exports.checkinPlace = function (id, callback){
 	})
 }
 
-exports.text = function (text, )
