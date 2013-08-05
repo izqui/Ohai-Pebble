@@ -62,4 +62,23 @@ exports.checkinPlace = function (id, callback){
 	})
 }
 
-exports.text = function (text, )
+exports.getChannels = function (callback){
+
+	var url = 'https://alpha-api.app.net/stream/0/channels'
+	request({
+
+		url:url,
+		headers: {
+
+			'Authorization': 'Bearer '+keys.token
+		}
+	}, function (err, res, body){
+
+		if (err) callback(err, null)
+		else {	
+			var r = JSON.parse(body)
+			callback(null, r.data)
+		}
+	})
+
+}
