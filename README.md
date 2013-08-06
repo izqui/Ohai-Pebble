@@ -1,6 +1,8 @@
 #Ohai-Pebble
-![](http://dl.dropboxusercontent.com/s/xcdm7r52hbw80c1/ohaipebble1.png)
+![](http://dl.dropboxusercontent.com/s/xcdm7r52hbw80c1/ohaipebble1.png) 
 ![](http://dl.dropboxusercontent.com/s/b8oed02uoxpibwy/ohaipebble2.png)
+
+
 Ohai for App.net is a really cool journaling app [Steve Streza](http://twitter.com/stevestreza) built on top of App.net API.
 
 I had been thinking about building an app for the Pebble to log all the places I go, since I have my Pebble all the time in my wrist. When I saw Ohai I decided I would build the app on top of it. 
