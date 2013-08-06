@@ -45,3 +45,5 @@ Take note of your server URL by executing  `$ heroku domains`, you will need tha
 For compiling the app, the easiest way is to use [CloudPebble](http://cloudpebble.net). Just create a free account and import the project (Ohai-Pebble/pebble). Once there, edit the `main.c`file and enter your server URL in the three lines needed replacing `[YOUR URL]` (lines 137, 195, 216).
 
 That's it, compile the app and run it in your Pebble. 
+
+Have fun! 
